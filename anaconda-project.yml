@@ -6,6 +6,7 @@ maintainers:
 
 channels:
 - pyviz
+- conda-forge
 
 dependencies: &deps
 - python=3.6
@@ -20,6 +21,15 @@ dependencies: &deps
 - holoviews ==1.12.2
 - geoviews-core ==1.6.2
 - panel ==0.5.1
+- hvplot.pandas
+- scrapy
+- requests
+- pandas
+- time
+- selenium
+- lxml.html
+- cartopy
+- geoviews
 
 packages: *deps
 
