@@ -9,7 +9,7 @@ channels:
 - conda-forge
 
 dependencies: &deps
-- python=3.6
+- python
 - notebook 
 - ipykernel 
 - nomkl
