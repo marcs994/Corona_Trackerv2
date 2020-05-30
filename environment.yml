@@ -7,7 +7,7 @@ dependencies:
   - pyviz/label/dev::holoviews=1.12.2
   - pyviz/label/dev::geoviews-core=1.6.2
   - pyviz/label/dev::panel=0.5.1
-  - conda-forge::hvplot.pandas
+  - conda-forge::hvplot
   - conda-forge::scrapy
   - conda-forge::requests
   - conda-forge::pandas
