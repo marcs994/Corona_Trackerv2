@@ -1,11 +1,11 @@
 dependencies:
   - pip
-  - pyviz::param
-  - pyviz::pyviz_comms
-  - pyviz::datashader
-  - bokeh::bokeh
-  - pyviz/label/dev::holoviews
-  - pyviz/label/dev::panel
+  - conda-forge::param
+  - conda-forge::pyviz_comms
+  - conda-forge::datashader
+  - conda-forge::bokeh
+  - conda-forge::holoviews
+  - conda-forge::panel
   - conda-forge::hvplot
   - conda-forge::scrapy
   - conda-forge::requests
