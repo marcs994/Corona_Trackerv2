@@ -5,7 +5,6 @@ dependencies:
   - pyviz::datashader
   - bokeh::bokeh
   - pyviz/label/dev::holoviews
-  - pyviz/label/dev::geoviews-core
   - pyviz/label/dev::panel
   - conda-forge::hvplot
   - conda-forge::scrapy
