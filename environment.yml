@@ -17,5 +17,6 @@ dependencies:
   - conda-forge::cartopy
   - conda-forge::geoviews
   - conda-forge::xlrd
+  - pyviz/label/dev::geoviews-core
   - pip:
     - jupyter-panel-proxy
