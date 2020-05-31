@@ -19,7 +19,6 @@ dependencies: &deps
 - datashader 
 - bokeh 
 - holoviews 
-- geoviews-core 
 - panel 
 - hvplot.pandas
 - scrapy
