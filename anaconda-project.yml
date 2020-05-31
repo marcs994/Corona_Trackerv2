@@ -5,7 +5,6 @@ maintainers:
 - philippjfr
 
 channels:
-- pyviz
 - conda-forge
 
 dependencies: &deps
@@ -29,7 +28,6 @@ dependencies: &deps
 - lxml.html
 - cartopy
 - geoviews
-- geoviews-core
 - xlrd
 
 packages: *deps
