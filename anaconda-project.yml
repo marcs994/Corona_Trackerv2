@@ -29,6 +29,7 @@ dependencies: &deps
 - lxml.html
 - cartopy
 - geoviews
+- geoviews-core
 - xlrd
 
 packages: *deps
