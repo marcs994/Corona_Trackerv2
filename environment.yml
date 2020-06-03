@@ -14,7 +14,7 @@ dependencies:
   - conda-forge::selenium
   - conda-forge::lxml
   - conda-forge::cartopy
-  - conda-forge:: geoviews
+  - conda-forge::geoviews
   - conda-forge::xlrd
 
   - pip:
