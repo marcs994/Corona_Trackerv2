@@ -1,8 +1,8 @@
 # To reproduce: install 'anaconda-project', then 'anaconda-project run'
-name: glaciers
-description: Glaciers explorer using Datashader
+name: Corona_Tracker
+description: Corona explorer using Holoviews
 maintainers:
-- philippjfr
+- marcs994
 
 channels:
 - conda-forge
@@ -12,7 +12,7 @@ dependencies: &deps
 - notebook 
 - ipykernel 
 - nomkl
-- tornado <6
+- tornado 
 - param 
 - pyviz_comms 
 - datashader 
@@ -34,10 +34,10 @@ packages: *deps
 
 commands:
   dashboard:
-    unix: panel serve glaciers.ipynb
+    unix: panel serve Corina_Trackerv2.ipynb
     supports_http_options: true
   notebook:
-    notebook: glaciers.ipynb
+    notebook: Corina_Trackerv2.ipynb
   test:
     unix: pytest --nbsmoke-run -k *.ipynb --ignore envs
     windows: pytest --nbsmoke-run -k *.ipynb --ignore envs
@@ -54,5 +54,5 @@ env_specs:
   default: {}
   test:
     packages:
-    - nbsmoke ==0.2.8
-    - pytest ==4.4.1
+    - nbsmoke 
+    - pytest 
